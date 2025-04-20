@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Требуется сотрудник</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#hero">Главная</a></li>
+            <li><a href="#description">Что это за работа?</a></li>
+            <li><a href="#features">Почему наш маяк?</a></li>
+            <li><a href="#slider">Преимущества</a></li>
+            <li><a href="#contact">Оставить заявку</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero">
+        <div class="container">
+            <h1 class='text-with-shadow'>Открыта вакансия помощника смотрителя маяка</h1>
+            <p>Здесь, на этом острове, вы станете собой!</p>
+            <a href="#contact" class="cta-button">Получить уникальный опыт</a>
+        </div>
+    </header>
+
+    <section id="description">
+        <div class="container">
+            <h2>Что это за работа?</h2>
+            <p>Это невероятная возможность, которая поможет вам улучшить вашу жизнь. В ней сочетаются тяга к прекрасному и желание помогать Свету рассеивать тьму.</p>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Почему именно наш маяк?</h2>
+            <ul>
+                <li>Возможность следить за светом</li>
+                <li>Высокое качество жилья</li>
+                <li>Стабильная оплата</li>
+                <li>Гарантия своевременного прихода кораблей</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="slider">
+        <div class="container">
+            <h2>Другие преимущества</h2>
+            <div class="slider">
+                <div class="slide active">
+                    <h3>Добродушный смотритель</h3>
+                    <p>Коллега-смотритель всегда поддержит в трудную минуту.</p>
+                </div>
+                <div class="slide">
+                    <h3>Лёгкая работа</h3>
+                    <p>Мы предлагаем вам достойную работу, не требующую перенапряжения.</p>
+                </div>
+                <div class="slide">
+                    <h3>Отличная погода на острове</h3>
+                    <p>На острове не бывает штормов, поэтому вы в полной мере сможете насладиться прекрасными видами.</p>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev">❮</button>
+                    <button class="next">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Оставьте заявку</h2>
+            <form action="#" method="POST" id="contact-form">
+                <input type="text" name="name" placeholder="Ваше имя" required minlength="3">
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; UNITED STATES LIGHTHOUSE ESTABLISHMENT. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="landing.js"></script>
+</body>
+</html>
